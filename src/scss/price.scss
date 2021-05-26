@@ -1,0 +1,37 @@
+.price{
+    &__nds{
+        padding-bottom: 10px;
+        line-height: 20px;
+        color:rgba(27, 28, 33, 1);
+    }
+    &__get-offer{
+        font-size:16px;
+        line-height: 24px;
+        position: relative;
+    }
+    &__offer-arrow{
+        transform: translateY(12%);
+    }
+}
+.price-slider{
+    &__slide{
+        position: relative;
+        width:260px;
+        height:200px;
+        padding-top:16px;
+        padding-left: 16px;
+        background: white;
+        border-radius: 6px;
+    }
+    &__service-title{
+        margin-bottom:5;
+        color:rgba(126, 126, 130, 1);
+    
+        line-height: 16px;
+    }
+    &__service-desc:not(:last-child){
+        margin-bottom: 23px;
+        line-height: 18px;
+    }
+    
+}

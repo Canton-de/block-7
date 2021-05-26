@@ -1,0 +1,176 @@
+@media(min-width:767px){
+    .swiper-pagination{
+        display: none;
+    }
+    .menu{
+        width:320px;
+        transition: all 1s ease;
+    }
+    .container{
+        margin: 0 24px;
+    }
+    .invisible{
+        display: block;
+    }
+    .slider{
+        display:block;
+        padding-left:24px;
+        padding-right:24px;
+    }
+    .brands{
+        display:none;   
+    }
+    .brand-image{
+        margin-bottom:0px;
+    }
+    .image-slider__swiper,.technics-slider__slide{
+        width:30%;
+    }
+    
+    .company__photo{
+        border-radius: 3px;
+    }
+    
+    .service__text-wrapper{
+        height:160px;
+        width:305px;
+        
+    }
+    
+
+    .image-slider__wrapper{
+        height:72px;
+    }
+    .image-slider__wrapper,.technics-slider__wrappe,.price-slider__slide{
+        flex-wrap: wrap;
+        box-sizing: border-box;
+        overflow: hidden;
+        margin-bottom:24px;
+    }
+    .technics-slider__wrapper{
+        height:160px;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+    tr{
+        .make-order{
+        position: relative;
+        top:auto;
+        left:auto;
+        display:inline-block;
+        margin-top:26px;
+        }
+    }
+    tr{
+        td:last-child{
+        padding-left: 25px;
+        }
+    }
+    .price__nds{
+        width:45%;
+    }
+    .footer{
+        padding: 0 24px;
+        display:flex;
+        justify-content: space-between;
+        &__copyright{
+            width: 218px;
+            text-align: left;
+            margin: 0;
+            
+        }
+    }
+    .swiper-container.service__slider{
+        margin-left: 20px;
+    }
+    .table-among{
+        table{
+        padding: 0 16px;
+        background: #fff;
+        width:100%;
+        border-radius: 6px;
+        margin-left: 2px;
+        }
+        tr:first-child td:first-child,tr:first-child td:nth-child(2),
+        tr:first-child td:nth-child(3){
+            position: relative;
+        }
+        tr:first-child td:first-child::before{
+            content: 'Ремонтные услуги';
+            position: absolute;
+            top:-30px;
+            color: rgba(126, 126, 130, 1)
+        }
+        tr:first-child td:nth-child(3)::before{
+            content: 'Срок';
+            position: absolute;
+            top:-30px;
+            color: rgba(126, 126, 130, 1)
+        }
+        tr:first-child td:nth-child(2)::before{
+            content: 'Цена';
+            position: absolute;
+            top:-30px;
+            color: rgba(126, 126, 130, 1)
+        }
+    }
+    .price-among-slider{
+        padding-top:32px;
+        position: relative;
+        visibility: visible;
+    }
+    .price-slider{
+        display: none;
+    }
+    td{
+        padding: 23px 0;
+    }
+    tr:not(:last-child){
+        td{
+        border-bottom: 1px solid rgba(234, 234, 234, 1);
+        }
+    }
+
+    th{
+        text-align:left;
+        font-weight: 500;
+        color: rgba(126, 126, 130, 1);
+        margin-bottom: 39px;
+    }
+    .swiper-container{
+        padding-bottom:0
+    }
+    .swiper-container.service__slider{
+        padding-bottom:40px;
+    }
+    .technics-slider__slide{
+        height:160px;
+    }
+    .image-slider__swiper,.technics-slider__slide,.price-slider__slide{
+        margin-bottom: 24px;
+    }
+    .header{
+        .logo-wrapper{
+        position:relative;
+        margin-left:22px;
+        }
+        .logo-wrapper::after{
+            background: #eaeaea;
+            content:'';
+            position:absolute;
+            top:50%;
+            transform: translateY(-50%);
+            left:-20px;
+            width:2px;
+            height:32px;
+            border-radius:1px;
+        }
+    } 
+   .flex{
+       display:flex;
+       margin-right: 16px;
+       flex-direction: row;
+       justify-content: space-between;
+   }  
+}

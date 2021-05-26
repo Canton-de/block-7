@@ -1,0 +1,157 @@
+@media(min-width:1440px){
+    .feed-back{
+        width:440px;
+        background:#fff;
+        z-index:7;
+        min-height: 100vh;
+        position: fixed;
+        right:0;
+        top:0;
+        transform: translateX(120%);
+    }
+    
+    .company{
+        width:40%;
+    }
+    .service__text{
+        width:40%;
+    }
+    .service__text-wrapper{
+        width: 490px;
+    }
+    .container{
+        padding: 34px 0;
+    }
+    .site-wrapper{
+        display:flex;
+    }
+    .menu{
+        min-width:290px;
+        position: static;
+        transform: none;
+        order:-1;
+        box-shadow: none;
+        
+    }
+    .header-list__item.logo-item{
+        margin-left: 0;
+    }
+    
+    .swiper-wrapper.small{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .header-list__item.invisible,.header-list__item.logo,.header__burger,.menu .cross{
+        display:none;   
+    }
+    .header-list__item.logo{
+        margin-left: 0;
+    }
+    .header-list__item.logo::after{
+        width:400px;
+    }
+    .header .logo-wrapper{
+        margin:0;
+    }
+    .header .logo-wrapper::after{
+        content: none;
+    }
+    .header-list__item.repair{
+        margin-left: auto;
+    }
+    .service{
+        margin-top:-134px;
+    }
+    
+    .checkstatus-wrapper{
+        margin-left: 160px;
+        position: relative;
+    }
+    .checkstatus-wrapper::after{
+        position: absolute;
+        content:'Статус ремонта';
+        left:-130px;
+        width: 135px;
+        background: inherit;
+        height:24px;
+        font-size: 16px;
+        top:50%;
+        transform: translateY(-50%);
+    }
+    .feed-back{
+        width:440px;
+        background:#fff;
+        z-index:7;
+        min-height: 100vh;
+        position: fixed;
+        right:0;
+        top:0;
+        transform: translateX(120%);
+    }
+    
+    .company{
+        width:40%;
+    }
+    .service__text{
+        width:40%;
+    }
+    .service__text-wrapper{
+        width: 490px;
+    }
+    .container{
+        padding: 34px 0;
+    }
+    .site-wrapper{
+        display:flex;
+    }
+    .menu{
+        min-width:290px;
+        position: static;
+        transform: none;
+        order:-1;
+        box-shadow: none;
+        
+    }
+    .header-list__item.logo-item{
+        margin-left: 0;
+    }
+    .swiper-wrapper.small{
+        flex-wrap: wrap;
+    }
+    .header-list__item.invisible,.header-list__item.logo,.header__burger,.menu .cross{
+        display:none;   
+    }
+    .header-list__item.logo{
+        margin-left: 0;
+    }
+    .header-list__item.logo::after{
+        width:400px;
+    }
+    .header .logo-wrapper{
+        margin:0;
+    }
+    .header .logo-wrapper::after{
+        content: none;
+    }
+    .header-list__item.repair{
+        margin-left: auto;
+    }
+    .service{
+        margin-top:-134px;
+    }
+    .repair-logo-wrapper .subtitle{
+        display:inline-block;
+        width: 135px;
+        background: inherit;
+        height:24px;
+        font-size: 16px;
+    }
+    .checkstatus-wrapper{
+        margin-left: 160px;
+        position: relative;
+    }
+    .image-slider__swiper,.technics-slider__slide{
+        width:21%;
+    }
+}
